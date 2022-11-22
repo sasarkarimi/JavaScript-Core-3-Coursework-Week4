@@ -6,9 +6,14 @@ function removeVowels(word) {
   characters.forEach(function (character) {
     if (
       character !== "a" &&
+      character !== "A" &&
       character !== "o" &&
-      character !== "i" &&
+      character !== "O" &&
       character !== "e" &&
+      character !== "E" &&
+      character !== "i" &&
+      character !== "I" &&
+      character !== "U" &&
       character !== "u"
     ) {
       result.push(character);
